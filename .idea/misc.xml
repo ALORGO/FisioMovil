@@ -3,8 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_ingreso_paciente.xml" value="0.1453804347826087" />
+        <entry key="app/src/main/res/layout/activity_ingreso_terapeuta.xml" value="0.1453804347826087" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_registro_terapeuta.xml" value="0.1453804347826087" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.11752786220871327" />
+        <entry key="app/src/main/res/layout/activity_tipo_registro.xml" value="0.1453804347826087" />
       </map>
     </option>
   </component>

@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FisioMovil">
         <activity
+            android:name=".TipoRegistro"
+            android:exported="false" />
+        <activity
+            android:name=".RegistroTerapeuta"
+            android:exported="false" />
+        <activity
+            android:name=".IngresoTerapeuta"
+            android:exported="false" />
+        <activity
+            android:name=".IngresoPaciente"
+            android:exported="false" />
+        <activity
+            android:name=".RegistroPaciente"
+            android:exported="false" />
+        <activity
             android:name=".Splash"
             android:exported="true">
             <intent-filter>
