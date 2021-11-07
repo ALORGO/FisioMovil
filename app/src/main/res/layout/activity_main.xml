@@ -20,6 +20,7 @@
         android:textColor="@color/white"
         android:text="Bienvenido a tu aplicación preferida de para citas de terapias!!"
         android:textSize="20dp"
+        android:gravity="center"
         android:layout_marginTop="20dp"/>
 
     <com.google.android.material.button.MaterialButton
