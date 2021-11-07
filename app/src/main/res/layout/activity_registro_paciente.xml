@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondo_pantalla2"
-    tools:context=".Splash">
+    tools:context=".RegistroPaciente">
 
 </androidx.constraintlayout.widget.ConstraintLayout>
