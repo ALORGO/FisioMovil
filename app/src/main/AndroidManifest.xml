@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FisioMovil">
         <activity
+            android:name=".ServiciosProgramados"
+            android:exported="false" />
+        <activity
+            android:name=".ServiciosDisponibles"
+            android:exported="false" />
+        <activity
+            android:name=".HistorialCitas"
+            android:exported="false" />
+        <activity
+            android:name=".SolicitudCita"
+            android:exported="false" />
+        <activity
+            android:name=".MenuTerapeuta"
+            android:exported="false" />
+        <activity
+            android:name=".MenuPaciente"
+            android:exported="false" />
+        <activity
             android:name=".TipoRegistro"
             android:exported="false" />
         <activity
