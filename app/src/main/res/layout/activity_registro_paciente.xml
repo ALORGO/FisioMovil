@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegistroPaciente">
+    tools:context=".RegistroPaciente"
+    android:orientation="vertical"
+    android:padding="10dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:src="@drawable/logo_blanco2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dando cumplimiento a lo ​dispuesto en la Ley estatutaria 1581 de 2012 y a su Decreto Reglamentario 1377 de 2013, FisioMovil adopta la presente política para el tratamiento de datos personales, la cual será informada a todos los titulares de los datos recolectados o que en el futuro se obtengan en el ejercicio de las actividades propias de nuestros procesos médicos asistenciales. De esta manera, FisioMovil manifiesta que garantiza los derechos de la privacidad, la intimidad, el buen nombre, en el tratamiento de los datos personales, y en consecuencia todas sus actuaciones se regirán por los principios de legalidad, finalidad, libertad, veracidad o calidad, transparencia, acceso y circulación restringida, seguridad y confidencialidad. Todas las personas que, en desarrollo de diferentes actividades médicos asistenciales, sean permanentes u ocasionales, llegaran a suministrar a FisioMovil cualquier tipo de información o dato personal, podrá conocerla, actualizarla y rectificarla. Autorizo a Mas Salud, para que recolecte mis datos personales y los conserve dentro de sus bases, cuyo uso se encuentra destinado a mantener una constante comunicación con los interesados. Autorizo para que los datos por mi suministrados sean utilizados con la finalidad de informarme sobre sus actividades y procesos asistenciales."
+        android:textSize="7dp"
+        android:layout_marginTop="20dp"
+        android:gravity="bottom"/>
+
+
+
+</LinearLayout>
