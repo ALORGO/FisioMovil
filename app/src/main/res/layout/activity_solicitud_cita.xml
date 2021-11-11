@@ -1,9 +1,256 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#42137c"
+    android:padding="20dp"
     tools:context=".SolicitudCita">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:id="@+id/LogoSolicitaCita"
+        android:layout_width="150dp"
+        android:layout_height="90dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo_principal_sin_fondo"/>
+
+    <TextView
+        android:id="@+id/tituloSolicitaCita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LogoSolicitaCita"
+        android:layout_marginTop="5dp"
+        android:text="Agendamiento de la Cita"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+
+    <!-- inicio de seleccion del tipo de terapia -->
+    <TextView
+        android:id="@+id/tituloTerapia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tituloSolicitaCita"
+        android:layout_marginTop="20dp"
+        android:text="Seleecione el tipo de terapia"
+        android:textColor="@color/white"
+        android:gravity="left"
+        android:textSize="13dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tipoTerapia"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/tituloTerapia"
+        android:hint="Tipo de terapia"
+        android:textColorHint="@color/black"
+        app:boxBackgroundColor="#E6D2FF"
+        app:boxCornerRadiusBottomStart="10dp"
+        app:boxCornerRadiusBottomEnd="10dp"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:boxCornerRadiusTopStart="10dp">
+
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none" />
+
+        <menu>
+            <item
+                android:id="@+id/terapiaFisica"
+                android:title="Terapia Fisica" />
+            <item
+                android:id="@+id/terapiaRespiratoria"
+                android:title="Terapia Respiratoria" />
+            <item
+                android:id="@+id/terapiaOcupacional"
+                android:title="Terapia Ocupacional" />
+            <item
+                android:id="@+id/terapiaLenguaje"
+                android:title="Terapia de Lenguaje" />
+        </menu>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- fin de seleccion del tipo de terapia -->
+
+    <!-- inicia propuesta de seleccion del profesional -->
+
+    <TextView
+        android:id="@+id/tituloProfesional"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tipoTerapia"
+        android:layout_marginTop="10dp"
+        android:text="Si lo desea seleccione el profesional"
+        android:textColor="@color/white"
+        android:gravity="left"
+        android:textSize="13dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/profesional"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/tituloProfesional"
+        android:hint="Profesional"
+        android:textColorHint="@color/black"
+        app:boxBackgroundColor="#E6D2FF"
+        app:boxCornerRadiusBottomStart="10dp"
+        app:boxCornerRadiusBottomEnd="10dp"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:boxCornerRadiusTopStart="10dp">
+
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none" />
+
+        <menu>
+            <item
+                android:id="@+id/listaProfesional"
+                android:title="Profesional 1" />
+            <!-- listado de profesionales -->
+        </menu>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- finaliza propuesta de seleccion del profesional -->
+
+    <!-- inicia fecha de la cita -->
+
+    <TextView
+        android:id="@+id/tituloFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profesional"
+        android:layout_marginTop="10dp"
+        android:text="Seleccione la fecha de la cita"
+        android:textColor="@color/white"
+        android:gravity="left"
+        android:textSize="13dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/fechaCita"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/tituloFecha"
+        android:hint="AAAA/MM/DD"
+        android:textColorHint="@color/black"
+        app:boxBackgroundColor="#E6D2FF"
+        app:boxCornerRadiusBottomStart="10dp"
+        app:boxCornerRadiusBottomEnd="10dp"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:boxCornerRadiusTopStart="10dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- finaliza fecha de la cita -->
+
+    <!-- inicia jornada de la cita -->
+
+    <TextView
+        android:id="@+id/tituloJornada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fechaCita"
+        android:layout_marginTop="10dp"
+        android:text="Seleccione la jornada en la que desea la cita"
+        android:textColor="@color/white"
+        android:gravity="left"
+        android:textSize="13dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/jornada"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/tituloJornada"
+        android:hint="Seleccione la jornada de su preferencia"
+        android:textColorHint="@color/black"
+        app:boxBackgroundColor="#E6D2FF"
+        app:boxCornerRadiusBottomStart="10dp"
+        app:boxCornerRadiusBottomEnd="10dp"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:boxCornerRadiusTopStart="10dp">
+
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none" />
+
+        <menu>
+            <item
+                android:id="@+id/jornadaManana"
+                android:title="Mañana" />
+            <item
+                android:id="@+id/jornadaTarde"
+                android:title="Tarde" />
+            <item
+                android:id="@+id/jornadaNoche"
+                android:title="Noche" />
+        </menu>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- finaliza jornada de la cita -->
+
+    <!-- campo pendiente para la ubicacion -->
+
+    <!-- inicia confirmacion de la direccion -->
+
+    <TextView
+        android:id="@+id/tituloDireccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jornada"
+        android:layout_marginTop="10dp"
+        android:text="Confirme la dirección de su cita"
+        android:textColor="@color/white"
+        android:gravity="left"
+        android:textSize="13dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/direccion"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/tituloDireccion"
+        android:hint="Cll ** Cra ** - **"
+        android:textColorHint="@color/black"
+        app:boxBackgroundColor="#E6D2FF"
+        app:boxCornerRadiusBottomStart="10dp"
+        app:boxCornerRadiusBottomEnd="10dp"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:boxCornerRadiusTopStart="10dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- finaliza confirmacion de la direccion -->
+
+    <!-- boton de confirmacion -->
+
+    <Button
+        android:id="@+id/solicitaCita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/direccion"
+        android:layout_marginTop="45dp"
+        android:text="Solicitar Cita"
+        android:onClick="solicitarCita"
+        android:layout_centerHorizontal="true"
+        app:backgroundTint="#934FE8"/>
+
+</RelativeLayout>
