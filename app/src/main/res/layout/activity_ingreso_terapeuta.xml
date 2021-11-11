@@ -76,13 +76,12 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/olvidarPassT"
+        android:id="@+id/olvidarPass"
         android:layout_below="@id/loginbtnT"
         android:text="Recuperar contraseña"
         android:textColor="@color/white"
         android:layout_centerHorizontal="true"
         android:layout_margin="5dp"
         android:textSize="12dp"/>
-
 
 </RelativeLayout>
