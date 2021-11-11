@@ -3,12 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/activity_ingreso_paciente.xml" value="0.1453804347826087" />
-        <entry key="app/src/main/res/layout/activity_ingreso_terapeuta.xml" value="0.1453804347826087" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_registro_terapeuta.xml" value="0.1453804347826087" />
-        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.11752786220871327" />
-        <entry key="app/src/main/res/layout/activity_tipo_registro.xml" value="0.1453804347826087" />
+        <entry key="..\:/Users/usur/AndroidStudioProjects/GitHub/FisioMovil/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/usur/AndroidStudioProjects/GitHub/FisioMovil/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/usur/AndroidStudioProjects/GitHub/FisioMovil/app/src/main/res/layout/activity_historial_citas.xml" value="0.25" />
+        <entry key="..\:/Users/usur/AndroidStudioProjects/GitHub/FisioMovil/app/src/main/res/layout/activity_ingreso_paciente.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/usur/AndroidStudioProjects/GitHub/FisioMovil/app/src/main/res/layout/activity_ingreso_terapeuta.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/usur/AndroidStudioProjects/GitHub/FisioMovil/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/usur/AndroidStudioProjects/GitHub/FisioMovil/app/src/main/res/layout/activity_producto.xml" value="0.3048211508553655" />
+        <entry key="..\:/Users/usur/AndroidStudioProjects/GitHub/FisioMovil/app/src/main/res/layout/activity_registro_paciente.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/usur/AndroidStudioProjects/GitHub/FisioMovil/app/src/main/res/layout/activity_registro_terapeuta.xml" value="0.33" />
+        <entry key="..\:/Users/usur/AndroidStudioProjects/GitHub/FisioMovil/app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/usur/AndroidStudioProjects/GitHub/FisioMovil/app/src/main/res/layout/activity_tipo_registro.xml" value="0.20416666666666666" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1331521739130435" />
       </map>
     </option>
   </component>
