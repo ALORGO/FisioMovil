@@ -74,11 +74,12 @@
         app:layout_constraintBottom_toTopOf="@+id/textInputLayout2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox">
+        app:layout_constraintTop_toBottomOf="@+id/checkBox"
+        app:boxBackgroundColor="#E6D2FF">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
-            android:layout_height="30dp"
+            android:layout_height="48dp"
             android:hint="Nombre completo"
             android:inputType="textPersonName" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -113,12 +114,13 @@
         android:id="@+id/textInputLayout2"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginEnd="40dp"
+        android:layout_marginEnd="30dp"
         android:layout_marginBottom="10dp"
         app:layout_constraintBottom_toTopOf="@+id/textInputLayout3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/spinner"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout">
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
+        app:boxBackgroundColor="#E6D2FF">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
@@ -135,11 +137,12 @@
         app:layout_constraintBottom_toTopOf="@+id/textInputLayout4"
         app:layout_constraintEnd_toEndOf="@+id/textInputLayout4"
         app:layout_constraintStart_toStartOf="@+id/textInputLayout4"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout2">
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout2"
+        app:boxBackgroundColor="#E6D2FF">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
-            android:layout_height="30dp"
+            android:layout_height="48dp"
             android:gravity="center_vertical"
             android:hint="Direccion" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -152,7 +155,8 @@
         app:layout_constraintBottom_toTopOf="@+id/textInputLayout5"
         app:layout_constraintEnd_toEndOf="@+id/textInputLayout5"
         app:layout_constraintStart_toStartOf="@+id/textInputLayout5"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout3">
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout3"
+        app:boxBackgroundColor="#E6D2FF">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
@@ -168,7 +172,8 @@
         app:layout_constraintBottom_toTopOf="@+id/textInputLayout6"
         app:layout_constraintEnd_toEndOf="@+id/textInputLayout6"
         app:layout_constraintStart_toStartOf="@+id/textInputLayout6"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout4">
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout4"
+        app:boxBackgroundColor="#E6D2FF">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
@@ -184,7 +189,8 @@
         app:layout_constraintBottom_toTopOf="@+id/textInputLayout7"
         app:layout_constraintEnd_toEndOf="@+id/textInputLayout7"
         app:layout_constraintStart_toStartOf="@+id/textInputLayout7"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout5">
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout5"
+        app:boxBackgroundColor="#E6D2FF">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
@@ -202,7 +208,8 @@
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout6">
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout6"
+        app:boxBackgroundColor="#E6D2FF">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
@@ -219,7 +226,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout7" />
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout7"
+        app:backgroundTint="#934FE8"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
