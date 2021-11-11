@@ -15,9 +15,8 @@
         <entry key="app/src/main/res/layout/activity_solicitud_cita.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.11752786220871327" />
         <entry key="app/src/main/res/layout/activity_tipo_registro.xml" value="0.1453804347826087" />
-        <entry key="app/src/main/res/menu/menu_terapias.xml" value="0.25625" />
-        <entry key="app/src/main/res/menu/terapias.xml" value="0.25625" />
         <entry key="app/src/main/res/menu/tipos_terapias.xml" value="0.25625" />
+
       </map>
     </option>
   </component>
